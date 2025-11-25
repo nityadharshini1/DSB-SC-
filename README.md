@@ -48,7 +48,8 @@ Model Waveform
 <img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
 
 Program
-matlab
+
+'''matlab
 clc;
 clear;
 
@@ -88,6 +89,7 @@ plot(t,s);
 title('DSB-SC Modulated Signal s(t) = m(t) * c(t)');
 xlabel('Time');
 ylabel('Amplitude');
+'''
 
 Output Graph
 ![WhatsApp Image 2025-11-25 at 18 51 55_3234cc46](https://github.com/user-attachments/assets/7f843406-1b54-4868-a80f-3b40b1901089)
