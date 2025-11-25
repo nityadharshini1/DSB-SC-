@@ -52,10 +52,10 @@ clc;
 clear;
 
 % ***** Change these values using your Table No. 9 *****
-Am = 1;       % Message signal amplitude
-Ac = 1;       % Carrier signal amplitude
-fm = 10;      % Message frequency (Hz)
-fc = 100;     % Carrier frequency (Hz)
+Am = 1;      % Message signal amplitude
+Ac = 1;      % Carrier signal amplitude
+fm = 10;     % Message frequency (Hz)
+fc = 100;    % Carrier frequency (Hz)
 
 % ***** Time axis *****
 t = 0:0.0001:0.05;
@@ -72,18 +72,21 @@ s = m .* c;
 % ***** Plotting *****
 subplot(3,1,1);
 plot(t,m);
-title('Message Signal (m(t))');
-xlabel('Time'); ylabel('Amplitude');
+title('Message Signal m(t)');
+xlabel('Time');
+ylabel('Amplitude');
 
 subplot(3,1,2);
 plot(t,c);
-title('Carrier Signal (c(t))');
-xlabel('Time'); ylabel('Amplitude');
+title('Carrier Signal c(t)');
+xlabel('Time');
+ylabel('Amplitude');
 
 subplot(3,1,3);
 plot(t,s);
-title('DSB-SC Modulated Signal (s(t) = m(t)*c(t))');
-xlabel('Time'); ylabel('Amplitude');
+title('DSB-SC Modulated Signal s(t) = m(t) * c(t)');
+xlabel('Time');
+ylabel('Amplitude');
 Output Graph
 ![WhatsApp Image 2025-11-25 at 18 51 55_3234cc46](https://github.com/user-attachments/assets/7f843406-1b54-4868-a80f-3b40b1901089)
 
